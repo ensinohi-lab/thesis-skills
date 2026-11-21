@@ -1,0 +1,66 @@
+{
+  "tamanho": [
+    1080,
+    1440
+  ],
+  "margem": 90,
+  "camadas": [
+    {
+      "tipo": "fundo",
+      "cor": "#0B0B0B"
+    },
+    {
+      "tipo": "imagem",
+      "arquivo": "insumos/gravura-exemplo.jpg",
+      "caixa": [
+        0,
+        700,
+        1080,
+        740
+      ],
+      "filtro": "raiox",
+      "dissolver": "topo"
+    },
+    {
+      "tipo": "palavra",
+      "texto": "IDEIA",
+      "x": -30,
+      "y": 930,
+      "altura": 330,
+      "cor": "#F4EBDD",
+      "angulo": 4
+    },
+    {
+      "tipo": "tira",
+      "texto": "EXEMPLO",
+      "x": 520,
+      "y": 820,
+      "altura": 120,
+      "angulo": -5,
+      "fundo": "#FF8A1F",
+      "cor": "#0B0B0B"
+    },
+    {
+      "tipo": "bloco",
+      "x": 90,
+      "y": 110,
+      "largura": 880,
+      "corpo": 44,
+      "texto": "Exemplo de composição determinística com **voz forte** e ==destaque exato== sem cobrir pontuação."
+    },
+    {
+      "tipo": "credito",
+      "texto": "Obra de domínio público · acervo",
+      "canto": "id"
+    },
+    {
+      "tipo": "assinatura",
+      "texto": "Autor Exemplo",
+      "canto": "ie"
+    },
+    {
+      "tipo": "grao",
+      "forca": 8
+    }
+  ]
+}

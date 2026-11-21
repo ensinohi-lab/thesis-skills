@@ -1,0 +1,12 @@
+BLOCO «LAYOUT E CAOS» · colar no fim de TODO prompt de lâmina no ChatGPT (preencher os colchetes a partir do mapa de layout)
+
+LAYOUT DESTA LÂMINA: [L1–L9, nome].
+POSIÇÃO DO TEXTO DE LEITURA: [topo | meio | base | topo+base | ilhas em zigue-zague | coluna à esquerda]. Deixe essa área com fundo calmo ([cor/papel/sombra]) e coloque a cena no resto. NÃO coloque o texto no topo se eu não pedi topo.
+PALAVRAS DE LEITURA: no máximo [N] palavras (limite: 45; card 50; capa 8). Não acrescente nenhuma palavra.
+TEXTO DE LEITURA: reto, alinhado à esquerda, margem esquerda fixa de [90] px, sem inclinação, sem nada por cima.
+PALAVRA-CARTAZ (o caos): «[1 a 3 palavras]» em [tira de papel branca | tira cinza com retícula | barra de cor | letra solta], condensada pesada, [N] vezes maior que o texto de leitura (versal ≈ [X] px), inclinada [2–6]°, [passando atrás de (parte da figura) e na frente de (outra parte)] e [saindo pela borda direita, cortando só a última letra ou a pontuação].
+ELEMENTO DE CAOS DA IMAGEM: [objeto/figura entrando pela borda e cortado | colagem com rasgo | multidão cortada nas bordas | janelas sobrepostas]. [Se esta é uma lâmina calma: «Sem caos nesta lâmina: composição estável, nada cortado.»]
+DESTAQUE: barra [cor hex] só atrás de «[1–4 palavras]», cobrindo só as letras, nunca vírgula, ponto, dois-pontos, aspas ou interrogação.
+PROIBIDO: texto em qualquer objeto (livro, placa, tela, roupa), texto além do indicado, logos, contorno branco em pessoa recortada, pessoa «modelo de IA».
+
+Atalho quando a lâmina tem muito texto, citação ou obra real: peça ao ChatGPT SÓ a cena (sem nenhum texto, com a área do texto livre) e componha texto, tiras e destaque com compor_lamina.py.

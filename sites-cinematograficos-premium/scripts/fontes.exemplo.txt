@@ -1,0 +1,8 @@
+# Fontes do filme. Uma linha por clipe (lida por upscale-clipes.sh, interpola.sh e encode-degraus.sh):
+#   CLIPE  ARQUIVO (relativo à pasta do projeto)   INÍCIO(s)  FIM(s ou -)  RECORTE_X_CELULAR (0–1; 0.5 = centro)
+# O último quadro de F(n) deve ser o MESMO quadro-chave que abre F(n+1) (Flow "Frames to Video" com 1º e último quadro).
+# RECORTE_X: onde está o assunto no 16:9 quando o celular recorta 9:16 (0 = esquerda, 1 = direita).
+F1  flow/F1-final-1.mp4     0  -  0.42
+F2  flow/F2-final-1.mp4     0  -  0.42
+F3  flow/F3-rascunho-1.mp4  0  -  0.50
+F4  flow/F4-rascunho-1.mp4  0  5.5  0.50
