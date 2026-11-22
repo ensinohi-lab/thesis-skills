@@ -1,6 +1,6 @@
 # THESIS Skills
 
-Coleção de **26 skills genéricas e reutilizáveis** para agentes de IA (Claude Code, OpenAI Codex, Antigravity, Cursor), cobrindo produção audiovisual, motion editorial, design de carrosséis/posts, sites com vídeo guiado por rolagem, SEO, operação imobiliária e atendimento estruturado.
+Coleção de **27 skills genéricas e reutilizáveis** para agentes de IA (Claude Code, OpenAI Codex, Antigravity, Cursor), cobrindo produção audiovisual, motion editorial, design de carrosséis/posts, sites com vídeo guiado por rolagem, SEO, operação imobiliária e atendimento estruturado.
 
 *Read in [English](#english) below.*
 
@@ -12,11 +12,12 @@ Estas skills fazem parte do ecossistema **THESIS OS** ([`thesis-os`](https://git
 
 Todas as skills específicas de clientes, contas privadas ou credenciais foram removidas desta publicação.
 
-### Catálogo (26 skills)
+### Catálogo (27 skills)
 
 | Skill | Quando usar |
 |---|---|
 | `apoio-priorit-rio-equipe-no-whatsapp` | Use ao receber ou conferir novas mensagens profissionais de um contato de equipe explicitamente autorizado no WhatsApp, para responder dúvidas e alinhar atendimentos sem duplicação. |
+| `autopilot-criativo` | Use ao produzir ou refazer uma peça (carrossel, motion de texto, reel de imóvel, vídeo com foto ou Flow, lote mensal) com um comando só (`/autopilot-criativo` ou `/produzir`): lê a ordem e a identidade, propõe conceito, faz preflight e mapa, gera artes, monta, roda 3 a 5 ciclos de revisão, entrega prévia e limpa o cache. Nunca publica. |
 | `carrossel-texto-storytelling` | Escrever o TEXTO das lâminas de um carrossel de Instagram (8–10 lâminas) com narrativa, conexões entre lâminas e citações verificadas, no nível do Efeito Prisma. Use antes de gerar qualquer arte de carrossel, para qualquer cliente. Inclui arcos reutilizáveis, checklist, padrões de IA proibidos e regras para citar Bíblia e autores históricos sem inventar. Regras de arco narrativo, checklist e verificação de citações. |
 | `cenas-editoriais` | Catálogo de 31 técnicas de CENA para capas, posts e carrosséis editoriais (estilo revista e Efeito Prisma, capas e frames de cinema): manequins 3D encenando, silhueta chapada, figura em cor única na multidão, foto real em janela, recorte P&B sobre cor chapada, tiras de papel e palavras com fundo, palavra que colide com a figura ou sai do quadro, salto de escala, ilhas de texto fora da grade, explosão gráfica, pintura de domínio público creditada, letterbox e outras. Inclui a gramática de layout (lógica × caos, 9 tipos), o bloco de prompt LAYOUT E CAOS e o compositor determinístico compor_lamina.py. Cada técnica tem quando usar, prompt-modelo para ChatGPT e armadilhas, mais o vocabulário de câmera (plano, ângulo, lente, luz, cor) que o rea-post mede. Use depois de definir o conceito do post (skill rea-post-estatico) e antes de escrever o prompt de cada lâmina, para qualquer cliente. |
 | `edi-o-contextual-de-v-deos-gravados` | Use quando receber vídeos gravados para editar, inclusive um pedido curto como 'edita': planejar narrativa, cortes, imagens de apoio, som, recorte de pessoas e composição de cenários conforme o contexto e a marca. |
@@ -56,7 +57,7 @@ Copie as pastas desejadas para o diretório de skills da sua ferramenta:
 
 ## English
 
-Collection of **26 generic, reusable AI agent skills** (compatible with Claude Code, OpenAI Codex, Antigravity, and Cursor) covering video production, editorial motion, carousel composition, scroll-driven video websites, SEO audits, real-estate operations, and structured team workflows.
+Collection of **27 generic, reusable AI agent skills** (compatible with Claude Code, OpenAI Codex, Antigravity, and Cursor) covering video production, editorial motion, carousel composition, scroll-driven video websites, SEO audits, real-estate operations, and structured team workflows.
 
 Client-specific guidelines, private accounts, and credentials have been excluded from this repository.
 
